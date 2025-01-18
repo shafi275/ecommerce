@@ -23,6 +23,9 @@ img{
     --box-shadow: 0.1 rem 0.2 rem 0.8 rem rgba(205,202,202,0.5);
 
 }
+#menu-icon{
+    display: none;
+}
 nav{
     font-family: fantasy;
     font-size: 1.2 rem;
@@ -68,6 +71,16 @@ nav{
         gap: 1rem;
         padding:1rem 0px
     }
+    #menu-icon{
+        display: block;
+        text-align: center;
+        margin: 1rem 0rem;
+        cursor: pointer;
+    }
+    .hidden{
+        display: none;
+    }
+
 }
 @media (max-width: 768px){
 

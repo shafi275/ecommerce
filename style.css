@@ -72,3 +72,10 @@ nav{
 @media (max-width: 768px){
 
 }
+.footer{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    min-height: 10vh;
+    color: white;
+    font-size: 1.1rem;
+}

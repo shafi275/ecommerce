@@ -80,10 +80,60 @@ nav{
     .hidden{
         display: none;
     }
+    .header{
+        height: 100vh;
+    }
 
 }
 @media (max-width: 768px){
 
+}
+.header{
+    padding: 4rem 0;
+    height: 80vh;
+    width: 100%;
+    background: url(images/ecommerce-web-page-concept-illustration_114360-8204.jpg) no-repeat center ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.banner
+{
+height:100%;
+width: 100%;
+flex-direction: column;
+}
+.banner-title
+{
+    font-size: 4rem;
+    color: yellow;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+}
+.features
+{
+    width:100%;
+
+}
+.feature
+{
+    background-color: rgba(80,160,78,0.7);
+    color: white;
+    border: var(--border-radius);
+    padding: 1rem;
+    width:15rem;
+    flex-direction: column;
+    gap:1rem;
+
+
+}
+.feature-icon{
+ font-size: 3rem;
+}
+.flex-center
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 .footer{
     padding: 1rem;

@@ -142,3 +142,19 @@ flex-direction: column;
     color: white;
     font-size: 1.1rem;
 }
+.main{
+    padding: 4rem 0;
+    height: 80vh;
+}
+.side-bar{
+    flex: 1;
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-self: flex-start;
+}
+.main-content{
+    flex: 3;
+}
